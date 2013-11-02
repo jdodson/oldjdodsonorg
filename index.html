@@ -1,13 +1,31 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: I make awesome things.
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+<div class="container">
+  My name is Jon Dodson and I make awesome things.  I am a Senior Developer at <a href="http://livingsocial.com" target="_blank">LivingSocial</a>, created the video game site <a href="http://cheerfulghost.com" target="_blank">Cheerful Ghost</a> and love watching films.
+</div>
+
+<div class="container">
+  <h3 id="list-group-basic">Projects I Work On</h3>
+
+  <div class="list-group">
+    <a href="http://cheerfulghost.com" class="list-group-item" title="Cheerful Ghost is an awesome site for people that love video games." target="_blank">
+      <div class="pull-left list-icon">
+        <img class="img-thumbnail" src="http://cheerfulghost.com/assets/cheerful_ghost.png"  />
+      </div>
+
+      <h4 class="list-group-item-heading">Cheerful Ghost</h4>
+      <p class="list-group-item-text">Is a community site for people that love video games.  Create an account, add all the games you own to your personal list and join the conversation!  I created this site using Ruby on Rails and Boostrap 3.</p>
+    </a>
+    <a href="https://github.com/jdodson/zemus" class="list-group-item" title="Zemus is a Ruby gem for embedding media in apps." target="_blank">
+      <div class="pull-left list-icon">
+        <img class="img-thumbnail" src="/images/github-icon.png" width="53px;" />
+      </div>
+
+      <h4 class="list-group-item-heading">Zemus</h4>
+      <p class="list-group-item-text">Zemus is a ruby gem that translates URLs into embedable code you can insert on a page. It does its magic by simply inspecting and hacking up the URL itself, it makes no external requests to a webservice.  Zemus is Open Source code hosted on GitHub and is available for you to use & modify.</p>
+    </a>
+  </div>
 </div>

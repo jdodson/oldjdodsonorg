@@ -1,3 +1,5 @@
 name: jdodson.org
+email: jbdodson@gmail.com
 markdown: redcarpet
 pygments: true
+timezone: America/Los_Angeles
