@@ -13,3 +13,16 @@
 .list-group .list-icon img {
   width: 60px;
 }
+
+.objective {
+  max-width: 30em;
+  padding: 1em 1em 1em 0;
+}
+
+.qualifications {
+  padding: 1em;
+}
+
+.experience .list {
+  max-width: 60em;
+}
