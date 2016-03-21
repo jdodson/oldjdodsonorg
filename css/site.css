@@ -1,3 +1,11 @@
+.hairline {
+  border-bottom: 1px solid #ccc;
+}
+
+.article {
+  padding: 0 0 1em 0;
+}
+
 .navbar {
   margin-bottom: 10px;
 }
@@ -21,6 +29,10 @@
 
 .qualifications {
   padding: 1em;
+}
+
+.experience {
+  margin-top: 1em;
 }
 
 .experience .list {
