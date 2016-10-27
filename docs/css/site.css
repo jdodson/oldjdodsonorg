@@ -1,0 +1,40 @@
+.hairline {
+  border-bottom: 1px solid #ccc;
+}
+
+.article {
+  padding: 0 0 1em 0;
+}
+
+.navbar {
+  margin-bottom: 10px;
+}
+
+.list-group {
+  margin-bottom: 10px;
+}
+
+.list-group .list-icon {
+  margin-right: 10px;
+}
+
+.list-group .list-icon img {
+  width: 60px;
+}
+
+.objective {
+  max-width: 30em;
+  padding: 1em 1em 1em 0;
+}
+
+.qualifications {
+  padding: 1em;
+}
+
+.experience {
+  margin-top: 1em;
+}
+
+.experience .list {
+  max-width: 60em;
+}
