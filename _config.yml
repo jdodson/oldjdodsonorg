@@ -2,5 +2,5 @@ name: jdodson.org
 email: jbdodson@gmail.com
 image: images/current_profile.jpg
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 timezone: America/Los_Angeles
