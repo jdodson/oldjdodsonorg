@@ -8,4 +8,5 @@ gem install jekyll
 jekyll serve --watch
 
 # build a fresh version of the site
-jekyll build
+jekyll build --destination docs
+
