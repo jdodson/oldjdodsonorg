@@ -2,11 +2,13 @@ jdodson.org uses:
 * jekyll 3
 * bootstrap 3.0.1 w the Flatly http://bootswatch.com/ theme
 
-gem install jekyll
+# install
+
+gem install bundle
+bundle
 
 # serve the pages and regenerate when there is a change
 jekyll serve --watch
 
 # build a fresh version of the site
 jekyll build --destination docs
-
