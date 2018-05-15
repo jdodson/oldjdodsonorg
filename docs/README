@@ -12,3 +12,4 @@ jekyll serve --watch
 
 # build a fresh version of the site
 jekyll build --destination docs
+echo "jdodson.org" > docs/CNAME
